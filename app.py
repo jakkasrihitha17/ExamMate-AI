@@ -24,7 +24,7 @@ def get_twilio_client():
         TWILIO_AUTH_TOKEN
     )
 
-MODEL_NAME = "gemini-3.8-flash"
+MODEL_NAME = "gemini-3.5-flash-lite"
 gemini_client = get_gemini_client()
 twilio_client = get_twilio_client()
 
